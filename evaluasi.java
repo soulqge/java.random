@@ -13,58 +13,6 @@ import javax.swing.JOptionPane;
 public class evaluasi {
     
     public static void main(String[] args) {
-        
-        
-//        String bL = "Laptop";
-//        System.out.println("Nama Barang : "+ bL);
-//        int bLh = 7;
-//        System.out.println("Jumlah Barang : "+ bLh);
-//        int tTl = bLh * 1000000;
-//        System.out.println("Total Harga : "+ tTl);
-//        
-//         String bHd = "Hardisk";
-//        System.out.println("Nama Barang : "+ bHd);
-//        int bHdh = 11;
-//        System.out.println("Jumlah Barang : "+ bHdh);
-//        int tTh = bHdh * 150000;
-//        System.out.println("Total Harga : "+ tTh);
-//        
-//         String bM = "Mouse";
-//        System.out.println("Nama Barang : "+ bM);
-//        int bLM = 21;
-//        System.out.println("Jumlah Barang : "+ bLM);
-//        int tTm = bLh * 150000;
-//        System.out.println("Total Harga : "+ tTm);
-//        
-//        System.out.println("=========================");
-//        
-//        int totalAset = tTl + tTh + tTm;
-//        System.out.println("Total Aset : "+ totalAset);
-
-
-//           Scanner scan = new Scanner(System.in);
-//           System.out.print("Masukkan Jumlah Laptop : ");
-//           int jumlahLaptop = scan.nextInt();
-//           
-//           System.out.print("Masukkan Jumlah Hardisk : ");
-//           int jumlahHardisk = scan.nextInt();
-//           
-//           System.out.print("Masukkan Jumlah Mouse : ");
-//           int jumlahMouse = scan.nextInt();
-//           
-//           int totalAset = (jumlahLaptop*10000000) + (jumlahHardisk*1500000) + (jumlahMouse*150000);
-//           
-//          System.out.println("Total Aset Toko Tersebut Adalah : "+ totalAset);
-
-//String nama =JOptionPane.showInputDialog("Nama : ");
-//      String umur =JOptionPane.showInputDialog("Umur : ");
-//      double tinggibadan = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Tinggi Badan (m) : "));  
-//      double beratbadan = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Berat Badan (kg) : "));
-//      double bmi = beratbadan / (tinggibadan * tinggibadan) ;
-//      JOptionPane.showMessageDialog(null, "Nama : "+nama);
-//      JOptionPane.showMessageDialog(null, "Umur : "+umur);
-//      JOptionPane.showMessageDialog(null, "BMI : "+bmi);
-
     String nama = JOptionPane.showInputDialog("Nama : ");
     int jumlahBeras = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Jumlah Beras (KG) : " ));
     int jumlahMinyak = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Jumlah Minyak (L) : " ));
