@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class TEST123 {
     public static void main(String[] args) {
          
-//        String siswa [][] = {{"Ani","Perempuan","XR3"},{"Budi","Laki - Laki","XR1"},{"Citra","Perempuan","XR4"}};
-//        for (int i = 0; i < siswa.length; i++) {
-//            System.out.print("Nama Siswa : "+siswa[i][0]+"\n"+"Jenis Kelamin : "+siswa[i][1]+"\n"+ ""+"Kelas : "+siswa[i][2]+"\n");
-//            System.out.println("");
-/*
+        String siswa [][] = {{"Ani","Perempuan","XR3"},{"Budi","Laki - Laki","XR1"},{"Citra","Perempuan","XR4"}};
+        for (int i = 0; i < siswa.length; i++) {
+            System.out.print("Nama Siswa : "+siswa[i][0]+"\n"+"Jenis Kelamin : "+siswa[i][1]+"\n"+ ""+"Kelas : "+siswa[i][2]+"\n");
+            System.out.println("");
+
 Matriks A 4x4
 7   8   0   8
 3   3   4   7
@@ -49,7 +49,7 @@ Matriks B = 4x5
 
 Matriks AxB
 5x[4 4]x5
-*/
+
 
 int a [][] = {{7,8,0,8},{3,3,4,7},{6,6,8,9},{0,0,1,1}};
 int b [][] = {{5,6,3,8},{8,5,3,2},{9,0,8,7},{7,9,6,4}};
